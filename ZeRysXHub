@@ -55,3 +55,11 @@ local b = w:CreateFolder("Phantom Forces Guis")
 b:Button("NessHub ",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Attrixx/Scandia/main/NessHub.lua", true))()
 end)
+
+b:Button("Project-Evolution ",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-Evolution/Main/main/Loader.lua", true))()
+end)
+
+local w = library:CreateWindow("Simulators")
+
+local b = w:CreateFolder("Magnet Simulator")
